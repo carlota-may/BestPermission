@@ -45,7 +45,7 @@ Step 1.Add it in your root build.gradle at the end of repositories:
 
 Design
 -------  
-![design](https://github.com/SmallMay/BestPermission/blob/master/design.gif)
+![design](https://github.com/SmallMay/BestPermission/blob/master/device-2018-03-20-170224.png)
  
 Check permission
 -------  
