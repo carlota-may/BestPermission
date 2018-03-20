@@ -5,15 +5,16 @@ This is a library which is about permission.
 ```//TODO  add tag```
 
 ###Install
- 
+ -------  
 
 ###Design
- 
+ -------  
 
 ###How to use
+-------  
 #####check permission
- 
-```
+ -------  
+```Java
  new BestCheckPermission()
                 .addContext(this)
                 .setPermission(permissions)
@@ -31,8 +32,8 @@ This is a library which is about permission.
 ```
 
 #####apply permission
- 
-```
+ -------  
+```Java
 new BestPermission()
                 .addContext(this)
                 .setPermission(permissions)
@@ -51,7 +52,7 @@ new BestPermission()
 ```
 
 ###License
- 
+ -------  
 >**MIT License**
 >
 >Copyright (c) 2018 May
