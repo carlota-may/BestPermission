@@ -1,19 +1,54 @@
+
 BestPermission
 ====
 
 This is a library which is about permission.
-```//TODO  add tag```
 
-###Install
- -------  
-
-###Design
- -------  
-
-###How to use
+Install
 -------  
-#####check permission
- -------  
+ **gradle**
+ 
+Step 1.Add it in your root build.gradle at the end of repositories:
+ ```Groovy
+ allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+ ```
+ Step 2. Add the dependency
+ ```Groovy
+ dependencies {
+	        compile 'com.github.SmallMay:BestPermission:v1.0.0'
+	}
+
+ ```
+ **maven**
+ Step 1
+ ```Java
+ <repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+ ```
+ Step 2. Add the dependency
+ ```Java
+ <dependency>
+	    <groupId>com.github.SmallMay</groupId>
+	    <artifactId>BestPermission</artifactId>
+	    <version>v1.0.0</version>
+	</dependency>
+ ```
+
+Design
+-------  
+![design](https://github.com/SmallMay/BestPermission/blob/master/design.gif)
+ 
+Check permission
+-------  
 ```Java
  new BestCheckPermission()
                 .addContext(this)
@@ -31,7 +66,7 @@ This is a library which is about permission.
                 }).doCheck();
 ```
 
-#####apply permission
+Apply permission
  -------  
 ```Java
 new BestPermission()
@@ -51,7 +86,7 @@ new BestPermission()
                 .doApplyPermission();
 ```
 
-###License
+License
  -------  
 >**MIT License**
 >
